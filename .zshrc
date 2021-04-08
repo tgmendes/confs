@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 
 export DEFAULT_USER="$(whoami)"
 export GOPRIVATE=github.com/deliveroo
+export PATH=$PATH:$HOME/go/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
